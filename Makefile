@@ -1,4 +1,4 @@
-program := ./CITY.BAS
+program := ./FLAPPY.BAS
 
 # port := /dev/tty.usbserial-A601ZXQ7  
 port := /dev/tty.SLAB_USBtoUART
