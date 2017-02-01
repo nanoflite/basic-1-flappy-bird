@@ -9,7 +9,12 @@ exec := $(basic-1) exec --port=$(port)
 
 .PHONY: all new load run list
 
-all: new load run
+all: setup new load run
+
+setup:
+	$(exec) "OVERFLOW(1)"
+	$(exec) "CURSOR(1)"
+	$(exec) "CLS"
 
 new:
 	$(exec) "NEW"
