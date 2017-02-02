@@ -27,4 +27,4 @@
   v bird goes down
   v input, bird goes up
   * restart
-  * bird goes up fix
+  v bird goes up fix
