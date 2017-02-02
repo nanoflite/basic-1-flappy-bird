@@ -16,4 +16,13 @@
   3000: plot striped wall
   3100: move striped wall
 
+  4000: setup grafics (init screen)
+
   5000: data
+
+## TODO
+
+  * smaller screen: 38x25 --> 21 width --> 8 to 29 (buildings are 3 width)
+  v flash BASIC, fix for charat negative
+  v bird goes down
+  * input, bird goes up
