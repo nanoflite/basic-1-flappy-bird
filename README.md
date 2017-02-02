@@ -22,7 +22,7 @@
 
 ## TODO
 
-  * smaller screen: 38x25 --> 21 width --> 8 to 29 (buildings are 3 width)
+  v smaller screen: 38x25 --> 21 width --> 8 to 29 (buildings are 3 width)
   v flash BASIC, fix for charat negative
   v bird goes down
   * input, bird goes up
