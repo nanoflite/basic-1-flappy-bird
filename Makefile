@@ -1,4 +1,5 @@
-program := ./FLAPPY.BAS
+name := FLAPPY
+program := ./$(name).BAS
 
 # port := /dev/tty.usbserial-A601ZXQ7  
 port := /dev/tty.SLAB_USBtoUART
@@ -30,3 +31,7 @@ list:
 
 load:
 	$(load) $(program)
+
+save: setup new load
+	$(exec) "SAVE \"$(name)\""
+
