@@ -1,9 +1,0 @@
-; bird gliding
-00 00 00 03 0C 10 20 7C 82 ; top left
-00 00 00 F0 28 44 4A 4A 22 ; top right
-82 7C 20 18 06 01 00 00 00 ; bottom left
-1E 21 5E 22 1C E0 00 00 00 ; bottom right
-
-; wall
-00 01 03 07 0F 1F 3F 7F FF ; part 1
-00 FF FE FC F8 F0 E0 C0 80 ; part 2
